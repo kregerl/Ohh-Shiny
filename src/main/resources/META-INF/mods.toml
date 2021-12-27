@@ -1,0 +1,29 @@
+modLoader="javafml" 
+loaderVersion="[39,)"
+license="MIT"
+
+[[mods]] 
+modId="ohhshiny" 
+version="${file.jarVersion}" 
+displayName="Ohh Shiny!" 
+displayURL="https://www.curseforge.com/minecraft/mc-mods/ohh-shiny" 
+logoFile="logo.png" 
+credits="BuildTheBob" 
+authors="AreUThreateningMe" 
+description='''
+Ohh Shiny! is a simple mod that allows villagers to be tempted by emeralds.
+'''
+
+[[dependencies.ohhshiny]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[39,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
